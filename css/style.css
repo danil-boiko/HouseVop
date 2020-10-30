@@ -28,7 +28,7 @@ ul {
 }
 
 .header {
-  height: 100vh;
+  height: 90vh;
   background-image: url("../images/header-bg.jpg");
   background-size: cover;
   background-position: center;
@@ -59,4 +59,55 @@ ul {
 
 .menu__list li:not(:last-child) {
   padding-right: 50px;
+}
+
+.header__inner {
+  padding-top: 225px;
+}
+
+.header__inner-title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: #d4c17f;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.mouse {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.header__contacts {
+  padding-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__contatcs-map {
+  position: relative;
+}
+
+.header__contatcs-map::before {
+  content: "";
+  background-image: url("../images/map.svg");
+  position: absolute;
+  left: -36px;
+  width: 21px;
+  height: 21px;
+}
+
+.header__contatcs-phone {
+  position: relative;
+}
+
+.header__contatcs-phone::before {
+  content: "";
+  background-image: url("../images/phone.svg");
+  position: absolute;
+  left: -36px;
+  width: 21px;
+  height: 21px;
 }
