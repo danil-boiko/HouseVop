@@ -39,6 +39,7 @@ ul {
   padding-top: 50px;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.05em;
   position: relative;
 }
 
@@ -63,6 +64,8 @@ ul {
 
 .header__inner {
   padding-top: 225px;
+  width: 582px;
+  margin: 0 auto;
 }
 
 .header__inner-title {
@@ -84,6 +87,8 @@ ul {
   padding-top: 200px;
   display: flex;
   justify-content: space-evenly;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .header__contatcs-map {
@@ -101,6 +106,7 @@ ul {
 
 .header__contatcs-phone {
   position: relative;
+  margin-left: 136px;
 }
 
 .header__contatcs-phone::before {
@@ -110,4 +116,34 @@ ul {
   left: -36px;
   width: 21px;
   height: 21px;
+}
+
+.benefits__inner {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 19px;
+  line-height: 27px;
+  padding-top: 120px;
+  width: 794px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.benefits__inner::after {
+  content: ;
+}
+
+.benefits__item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 53px;
+}
+
+.benefits__item-text {
+  max-width: 193px;
+}
+
+.benefits__item:not(:first-child) {
+  max-width: 138px;
 }
