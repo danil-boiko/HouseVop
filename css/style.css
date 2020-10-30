@@ -31,6 +31,7 @@ ul {
   font-size: 36px;
   line-height: 48px;
   color: #d4c17f;
+  padding-top: 180px;
 }
 
 .header {
@@ -185,6 +186,14 @@ ul {
   top: 30px;
 }
 
+.flats-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #d4c17f;
+}
+
 .flats__item {
   background-image: url("../images/loft-1.jpg");
   width: 535px;
@@ -200,4 +209,84 @@ ul {
   line-height: 28px;
   padding-top: 248px;
   padding-left: 50px;
+}
+
+.contact {
+  height: 560px;
+  background-image: url("../images/seen-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__inner-text {
+  width: 535px;
+  padding-top: 50px;
+}
+
+.contact__form {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  width: 540px;
+}
+
+.contact__form input {
+  width: 47%;
+  height: 50px;
+  text-align: center;
+  background-color: #fff;
+  opacity: 0.2;
+  border: none;
+}
+
+.contact__form input::placeholder {
+  color: black;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+input:focus::placeholder {
+  transform: translateX(-30%);
+}
+
+.contact__form-phone {
+  float: right;
+}
+
+.contact__form-text {
+  width: 47%;
+  height: 28px;
+  padding-top: 46px;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  float: left;
+}
+
+.contact__form-btn {
+  background-color: #d4c17f;
+  float: right;
+  width: 47%;
+  height: 50px;
+  margin-top: 35px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #fff;
+  border: none;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.contact__form-btn:hover {
+  background-color: #000;
 }
