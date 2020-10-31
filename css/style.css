@@ -230,12 +230,11 @@ ul {
 }
 
 .contact__form {
-  width: 540px;
   display: flex;
   justify-content: space-between;
 }
 
-form {
+.contact__form form {
   width: 540px;
 }
 
@@ -248,7 +247,7 @@ form {
   border: none;
 }
 
-.contact__form input::placeholder {
+input::placeholder {
   color: black;
   font-size: 14px;
   line-height: 27px;
@@ -325,4 +324,60 @@ input:focus::placeholder {
   margin-top: 100px;
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.map__inner::before {
+  content: "";
+  background-image: url("../images/text-5.png");
+  background-repeat: no-repeat;
+  width: 407px;
+  height: 350px;
+  position: absolute;
+  left: -120px;
+  top: -60px;
+}
+
+.questions {
+  margin-bottom: 180px;
+}
+
+.questions__inner form {
+  width: 100%;
+  margin-top: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions__form-text {
+  width: 23%;
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+}
+.questions__form-name,
+.questions__form-phone {
+  width: 24%;
+  text-align: center;
+  background-color: #fff;
+  opacity: 0.2;
+  border: none;
+}
+
+.questions__form-btn {
+  width: 24%;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  color: #fff;
+  border: none;
+  transition: all 0.6s;
+  cursor: pointer;
+  background-color: #d4c17f;
+}
+
+.questions__form-btn:hover {
+  background-color: #000;
 }
