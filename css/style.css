@@ -169,7 +169,7 @@ ul {
 
 .flats__inner {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(535px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 30px 30px;
   padding-top: 100px;
   position: relative;
@@ -196,8 +196,11 @@ ul {
 
 .flats__item {
   background-image: url("../images/loft-1.jpg");
-  width: 535px;
-  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 99%;
+  height: 100%;
 }
 
 .flats__item:nth-child(even) {
@@ -431,6 +434,9 @@ input:focus::placeholder {
   .benefits__inner {
     width: 80%;
   }
+  .flats-title {
+    text-align: center;
+  }
 }
 
 @media (max-width: 1130px) {
@@ -439,6 +445,10 @@ input:focus::placeholder {
   }
   .menu__list {
     padding-right: 30px;
+  }
+  .flats__inner {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -469,6 +479,13 @@ input:focus::placeholder {
   .benefits__item:not(:first-child) {
     max-width: 100%;
     text-align: center;
+  }
+
+  @media (max-width: 869px) {
+    .flats__item {
+      width: 70%;
+      margin: 0 auto;
+    }
   }
 }
 
@@ -505,6 +522,14 @@ input:focus::placeholder {
   .benefits__inner {
     padding-top: 10%;
   }
+  .flats__inner {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .flats__item {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 540px) {
@@ -524,6 +549,18 @@ input:focus::placeholder {
   }
   .header__contatcs-phone::before {
     display: none;
+  }
+  .flats__inner {
+    display: block;
+  }
+  .flats__item {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  .flats__item {
+    height: 50%;
   }
 }
 
