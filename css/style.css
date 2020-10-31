@@ -466,6 +466,11 @@ input:focus::placeholder {
     margin-left: 15px;
     margin-right: 15px;
   }
+
+  .questions__inner {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -549,6 +554,24 @@ input:focus::placeholder {
   .video__inner {
     height: 300px;
     margin-top: 15%;
+  }
+  .questions__inner form {
+    display: block;
+    text-align: center;
+  }
+  .questions__form-text {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .questions__form-name,
+  .questions__form-phone {
+    width: 90%;
+    margin-bottom: 20px;
+    height: 50px;
+  }
+  .questions__form-btn {
+    width: 90%;
+    height: 50px;
   }
 }
 
