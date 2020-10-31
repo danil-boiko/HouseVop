@@ -381,3 +381,37 @@ input:focus::placeholder {
 .questions__form-btn:hover {
   background-color: #000;
 }
+
+.footer {
+  height: 27vh;
+  background-color: #2d343c;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.footer__item-list {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+
+.footer__item-list li {
+  padding-bottom: 15px;
+}
+
+.email {
+  color: #d4c17f;
+}
+
+.social {
+  padding-top: 5px;
+}
+
+.social a {
+  padding-right: 20px;
+}
