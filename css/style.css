@@ -468,6 +468,11 @@ input:focus::placeholder {
   .contact__form {
     margin-right: 10px;
   }
+  .video__inner {
+    width: 80%;
+    height: 400px;
+    margin-top: 7%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -537,6 +542,10 @@ input:focus::placeholder {
   .header__inner {
     width: 100%;
   }
+  .video__inner {
+    height: 300px;
+    margin-top: 15%;
+  }
 }
 
 @media (max-width: 610px) {
@@ -590,6 +599,11 @@ input:focus::placeholder {
   .flats__item {
     margin-bottom: 60px;
   }
+  .video__inner {
+    width: 90%;
+    height: 260px;
+    margin-top: 25%;
+  }
 }
 
 @media (max-width: 450px) {
@@ -622,6 +636,10 @@ input:focus::placeholder {
     width: 95%;
     float: none;
   }
+  .video__inner {
+    height: 200px;
+    margin-top: 40%;
+  }
 }
 
 @media (max-width: 360px) {
@@ -629,8 +647,20 @@ input:focus::placeholder {
     font-size: 30px;
     line-height: 40px;
   }
-  .benefits__inner {
-    padding-top: 30%;
+  .video__inner {
+    margin-top: 50%;
+  }
+}
+
+@media (max-width: 320px) {
+  .video__inner {
+    margin-top: 60%;
+  }
+}
+
+@media (max-width: 320px) {
+  .video__inner {
+    margin-top: 80%;
   }
 }
 
