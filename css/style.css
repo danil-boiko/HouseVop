@@ -290,3 +290,21 @@ input:focus::placeholder {
 .contact__form-btn:hover {
   background-color: #000;
 }
+
+.video__inner {
+  margin: 0 auto;
+  width: 719px;
+  height: 560px;
+  background-image: url("../images/video.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video__btn {
+  width: 100px;
+  height: 100px;
+}
