@@ -302,9 +302,27 @@ input:focus::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.video__inner::before {
+  content: "";
+  background-image: url("../images/text-4.png");
+  background-repeat: no-repeat;
+  width: 407px;
+  height: 350px;
+  position: absolute;
+  top: 30%;
+  right: -410px;
 }
 
 .video__btn {
   width: 100px;
   height: 100px;
+}
+
+.map__inner {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
 }
