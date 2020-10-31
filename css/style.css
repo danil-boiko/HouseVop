@@ -462,6 +462,10 @@ input:focus::placeholder {
     margin-left: 20px;
     margin-right: 20px;
   }
+  .map__inner {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 @media (max-width: 1024px) {
