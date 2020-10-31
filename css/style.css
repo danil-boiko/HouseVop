@@ -436,6 +436,18 @@ input:focus::placeholder {
   }
   .flats-title {
     text-align: center;
+    font-size: 32px;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .contact .section-title {
+    padding-bottom: 70px;
+  }
+  .contact__inner-text {
+    padding-top: 0;
+    width: 40%;
+    padding-left: 10px;
   }
 }
 
@@ -452,6 +464,12 @@ input:focus::placeholder {
   }
 }
 
+@media (max-width: 1024px) {
+  .contact__form {
+    margin-right: 10px;
+  }
+}
+
 @media (max-width: 1000px) {
   .benefits__item img {
     width: 50px;
@@ -461,6 +479,22 @@ input:focus::placeholder {
   .benefits__inner {
     font-size: 19px;
     line-height: 23px;
+  }
+}
+
+@media (max-width: 950px) {
+  .contact__inner {
+    display: block;
+  }
+  .contact__inner-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contact__form form {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
   }
 }
 
@@ -480,12 +514,12 @@ input:focus::placeholder {
     max-width: 100%;
     text-align: center;
   }
+}
 
-  @media (max-width: 869px) {
-    .flats__item {
-      width: 70%;
-      margin: 0 auto;
-    }
+@media (max-width: 869px) {
+  .flats__item {
+    width: 70%;
+    margin: 0 auto;
   }
 }
 
@@ -561,6 +595,32 @@ input:focus::placeholder {
 @media (max-width: 450px) {
   .flats__item {
     height: 50%;
+  }
+  .section-title {
+    padding-top: 80px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .contact__form {
+    margin-right: 0;
+  }
+  .contact__inner-text {
+    font-size: 15px;
+  }
+  .contact__form input {
+    width: 95%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .contact__form-text {
+    width: 95%;
+    padding-top: 10px;
+    float: none;
+  }
+  .contact__form-btn {
+    width: 95%;
+    float: none;
   }
 }
 
