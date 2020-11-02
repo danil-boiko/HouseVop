@@ -746,6 +746,9 @@ input:focus::placeholder {
     height: 200px;
     margin-top: 40%;
   }
+  .benefits__inner {
+    padding-top: 20%;
+  }
 }
 
 @media (max-width: 360px) {
@@ -757,7 +760,7 @@ input:focus::placeholder {
     margin-top: 50%;
   }
   .footer {
-    height: 120vh;
+    height: 125vh;
   }
 }
 
