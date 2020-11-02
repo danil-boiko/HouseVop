@@ -749,6 +749,9 @@ input:focus::placeholder {
   .benefits__inner {
     padding-top: 20%;
   }
+  .footer {
+    height: 130vh;
+  }
 }
 
 @media (max-width: 360px) {
@@ -759,20 +762,18 @@ input:focus::placeholder {
   .video__inner {
     margin-top: 50%;
   }
-  .footer {
-    height: 125vh;
-  }
 }
 
 @media (max-width: 320px) {
   .video__inner {
     margin-top: 60%;
   }
-  .header__inner{
+  .header__inner {
     padding-top: 100px;
   }
   .header__inner-title {
-padding-bottom: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 @media (max-width: 280px) {
